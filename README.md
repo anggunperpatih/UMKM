@@ -1,1 +1,0 @@
-UMKM project scaffold
