@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kopi Nusantara Raya | Kopi Single-Origin Premium Asli Indonesia</title>
+<meta name="description" content="Kopi Nusantara Raya — UMKM kopi premium sejak 1998. Kami meroasting biji kopi single-origin pilihan dari Gayo, Toraja, Kintamani & Mandailing, langsung dari petani mitra kami di seluruh Nusantara.">
+<meta name="keywords" content="kopi nusantara, kopi premium indonesia, kopi single origin, umkm kopi, kopi gayo, kopi toraja, kopi kintamani, roastery indonesia">
+<meta name="author" content="Kopi Nusantara Raya">
+<link rel="canonical" href="https://kopinusantararaya.id/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kopinusantararaya.id/">
+<meta property="og:title" content="Kopi Nusantara Raya | Kopi Single-Origin Premium Asli Indonesia">
+<meta property="og:description" content="Meracik warisan Nusantara, menyeduh kualitas dunia. Kopi single-origin premium dari petani mitra pilihan di seluruh Indonesia.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=1200&q=80">
+<meta property="og:locale" content="id_ID">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kopi Nusantara Raya | Kopi Single-Origin Premium Asli Indonesia">
+<meta name="twitter:description" content="Meracik warisan Nusantara, menyeduh kualitas dunia. Kopi single-origin premium dari petani mitra pilihan di seluruh Indonesia.">
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=1200&q=80">
+
+<!-- Favicon -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☕</text></svg>">
+
+<!-- Google Fonts: Poppins (primary) + Playfair Display (premium accent) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<!-- AOS Animation -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+<!-- Swiper -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
+
+<!-- Custom Stylesheet -->
+<link rel="stylesheet" href="style.css">
+
+<!-- Tailwind Config: brand tokens -->
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          primary: { DEFAULT: '#16a34a', dark: '#0f7a37', light: '#e8f7ee' },
+          secondary: '#22c55e',
+          accent: { DEFAULT: '#f59e0b', dark: '#b45309' },
+          roast: '#3f2a1d'
+        },
+        fontFamily: {
+          sans: ['Poppins', 'sans-serif'],
+          display: ['"Playfair Display"', 'serif']
+        },
+        boxShadow: {
+          soft: '0 20px 45px -15px rgba(22,163,74,0.25)',
+          card: '0 10px 30px -10px rgba(63,42,29,0.15)'
+        }
+      }
+    }
+  }
+</script>
+
+<!-- JSON-LD LocalBusiness -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://kopinusantararaya.id/",
+  "name": "Kopi Nusantara Raya",
+  "image": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=1200&q=80",
+  "description": "UMKM kopi premium sejak 1998. Meroasting biji kopi single-origin pilihan dari Gayo, Toraja, Kintamani & Mandailing, langsung dari petani mitra di seluruh Nusantara.",
+  "url": "https://kopinusantararaya.id/",
+  "telephone": "+62-812-3456-7890",
+  "priceRange": "Rp45.000 - Rp185.000",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Jl. Malioboro No. 88",
+    "addressLocality": "Yogyakarta",
+    "addressRegion": "DIY",
+    "postalCode": "55271",
+    "addressCountry": "ID"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -7.7956,
+    "longitude": 110.3695
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+    "opens": "08:00",
+    "closes": "20:00"
+  }],
+  "sameAs": [
+    "https://instagram.com/kopinusantararaya",
+    "https://facebook.com/kopinusantararaya",
+    "https://tiktok.com/@kopinusantararaya"
+  ]
+}
+</script>
+</head>
+
+<body class="font-sans text-roast bg-white antialiased">
+
+<!-- ============ SKIP LINK (Accessibility) ============ -->
+<a href="#main" class="skip-link">Lompat ke konten utama</a>
+
+<!-- ============ PRELOADER ============ -->
+<div id="preloader" aria-hidden="true">
+  <div class="preloader-cup">
+    <i class="fa-solid fa-mug-hot"></i>
+  </div>
+</div>
+
+<!-- ============ NAVBAR ============ -->
+<header id="navbar" class="fixed top-0 inset-x-0 z-50 transition-all duration-500">
+  <nav class="max-w-7xl mx-auto flex items-center justify-between px-5 lg:px-8 py-4" aria-label="Navigasi utama">
+    <a href="#home" class="flex items-center gap-2 group" aria-label="Kopi Nusantara Raya - Beranda">
+      <span class="w-11 h-11 rounded-2xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center shadow-soft group-hover:rotate-6 transition-transform duration-300">
+        <i class="fa-solid fa-mug-saucer text-white text-lg"></i>
+      </span>
+      <span class="leading-tight">
+        <span class="block font-display font-bold text-lg nav-text">Kopi Nusantara</span>
+        <span class="block text-[11px] tracking-[0.25em] uppercase nav-subtext -mt-1">Raya · Est. 1998</span>
+      </span>
+    </a>
+
+    <ul class="hidden lg:flex items-center gap-8 font-medium text-sm nav-text">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#products" class="nav-link">Products</a></li>
+      <li><a href="#gallery" class="nav-link">Gallery</a></li>
+      <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+      <li><a href="#faq" class="nav-link">FAQ</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+
+    <div class="flex items-center gap-3">
+      <a href="https://wa.me/6281234567890?text=Halo%20Kopi%20Nusantara%20Raya%2C%20saya%20ingin%20bertanya%20tentang%20produk." target="_blank" rel="noopener"
+        class="hidden sm:inline-flex items-center gap-2 bg-primary hover:bg-primary-dark text-white text-sm font-semibold px-5 py-2.5 rounded-full shadow-soft transition-all duration-300 hover:-translate-y-0.5">
+        <i class="fa-brands fa-whatsapp text-base"></i> Chat Kami
+      </a>
+      <button id="menuBtn" class="lg:hidden w-10 h-10 rounded-full flex items-center justify-center nav-text border border-current/20" aria-label="Buka menu" aria-expanded="false" aria-controls="mobileMenu">
+        <i class="fa-solid fa-bars text-lg"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div id="mobileMenu" class="lg:hidden hidden bg-white/98 backdrop-blur-xl border-t border-primary/10 shadow-xl">
+    <ul class="flex flex-col px-6 py-4 gap-1 font-medium text-roast">
+      <li><a href="#home" class="mobile-link">Home</a></li>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#products" class="mobile-link">Products</a></li>
+      <li><a href="#gallery" class="mobile-link">Gallery</a></li>
+      <li><a href="#testimonials" class="mobile-link">Testimonials</a></li>
+      <li><a href="#faq" class="mobile-link">FAQ</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+      <li class="pt-2">
+        <a href="https://wa.me/6281234567890" target="_blank" rel="noopener" class="flex items-center justify-center gap-2 bg-primary text-white font-semibold px-5 py-3 rounded-full">
+          <i class="fa-brands fa-whatsapp"></i> Chat WhatsApp
+        </a>
+      </li>
+    </ul>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ HERO SECTION ============ -->
+<section id="home" class="relative min-h-screen flex items-end lg:items-center overflow-hidden">
+  <img
+    src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=1920&q=80"
+    srcset="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=900&q=80 900w,
+            https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=1600&q=80 1600w,
+            https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=1920&q=80 1920w"
+    sizes="100vw"
+    alt="Biji kopi premium yang baru selesai di-roasting di kedai Kopi Nusantara Raya"
+    class="absolute inset-0 w-full h-full object-cover"
+    fetchpriority="high">
+  <div class="absolute inset-0 hero-overlay"></div>
+
+  <div class="relative z-10 max-w-7xl mx-auto px-5 lg:px-8 pb-28 pt-40 lg:py-0 w-full">
+    <div class="max-w-2xl">
+      <span data-aos="fade-down" class="inline-flex items-center gap-2 bg-white/10 border border-white/25 backdrop-blur-md text-white text-xs font-semibold tracking-wide px-4 py-2 rounded-full mb-6">
+        <i class="fa-solid fa-seedling text-accent"></i> UMKM Kopi Premium Sejak 1998
+      </span>
+
+      <h1 data-aos="fade-up" data-aos-delay="100" class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-[1.1] mb-6">
+        Meracik Warisan <span class="italic text-accent">Nusantara</span>, Menyeduh Kualitas Dunia
+      </h1>
+
+      <p data-aos="fade-up" data-aos-delay="200" class="text-white/85 text-base sm:text-lg mb-9 max-w-xl leading-relaxed">
+        Kami me-roasting biji kopi single-origin pilihan dari Gayo, Toraja, Kintamani & Mandailing — dipetik langsung oleh petani mitra kami, diseduh untuk pecinta kopi sejati di seluruh Indonesia.
+      </p>
+
+      <div data-aos="fade-up" data-aos-delay="300" class="flex flex-wrap items-center gap-4">
+        <a href="#products" class="inline-flex items-center gap-2 bg-primary hover:bg-primary-dark text-white font-semibold px-7 py-4 rounded-full shadow-soft transition-all duration-300 hover:-translate-y-1">
+          <i class="fa-solid fa-mug-hot"></i> Lihat Produk Kami
+        </a>
+        <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20memesan%20kopi." target="_blank" rel="noopener"
+          class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 border border-white/40 backdrop-blur-md text-white font-semibold px-7 py-4 rounded-full transition-all duration-300 hover:-translate-y-1">
+          <i class="fa-brands fa-whatsapp"></i> Pesan via WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Stats -->
+  <div data-aos="fade-up" data-aos-delay="400" class="relative z-10 max-w-7xl mx-auto px-5 lg:px-8 w-full lg:absolute lg:bottom-10 lg:left-1/2 lg:-translate-x-1/2 mt-10 lg:mt-0">
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 bg-white/10 border border-white/20 backdrop-blur-xl rounded-3xl p-5 lg:p-6 shadow-2xl">
+      <div class="text-center text-white border-r border-white/15 last:border-none">
+        <p class="font-display text-2xl lg:text-3xl font-bold"><span class="counter" data-target="27">0</span>+</p>
+        <p class="text-[11px] lg:text-xs uppercase tracking-wider text-white/70 mt-1">Tahun Pengalaman</p>
+      </div>
+      <div class="text-center text-white border-r border-white/15 last:border-none">
+        <p class="font-display text-2xl lg:text-3xl font-bold"><span class="counter" data-target="850">0</span>K+</p>
+        <p class="text-[11px] lg:text-xs uppercase tracking-wider text-white/70 mt-1">Cangkir Terjual</p>
+      </div>
+      <div class="text-center text-white border-r border-white/15 last:border-none">
+        <p class="font-display text-2xl lg:text-3xl font-bold"><span class="counter" data-target="320">0</span>+</p>
+        <p class="text-[11px] lg:text-xs uppercase tracking-wider text-white/70 mt-1">Petani Mitra</p>
+      </div>
+      <div class="text-center text-white">
+        <p class="font-display text-2xl lg:text-3xl font-bold"><span class="counter" data-target="60">0</span>+</p>
+        <p class="text-[11px] lg:text-xs uppercase tracking-wider text-white/70 mt-1">Kota Terjangkau</p>
+      </div>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-indicator hidden lg:flex" aria-label="Gulir ke bawah">
+    <span></span>
+  </a>
+</section>
+
+<!-- ============ ABOUT SECTION ============ -->
+<section id="about" class="py-24 lg:py-32 bg-white relative overflow-hidden">
+  <div class="absolute -top-24 -right-24 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
+  <div class="max-w-7xl mx-auto px-5 lg:px-8 relative">
+
+    <div class="grid lg:grid-cols-2 gap-14 items-center mb-24">
+      <div data-aos="fade-right" class="relative">
+        <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=900&q=80"
+          loading="lazy" alt="Pemilik Kopi Nusantara Raya menyeduh kopi secara manual di kedai"
+          class="rounded-[2rem] shadow-card w-full h-[420px] object-cover">
+        <div class="absolute -bottom-8 -right-6 sm:-right-10 bg-white rounded-2xl shadow-card p-5 w-52 border border-primary/10">
+          <div class="flex items-center gap-3">
+            <span class="w-11 h-11 rounded-full bg-accent/15 flex items-center justify-center text-accent"><i class="fa-solid fa-award text-lg"></i></span>
+            <div>
+              <p class="font-bold text-sm leading-tight">Sertifikasi Organik</p>
+              <p class="text-xs text-roast/60">Kemenperin & LSO 2023</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div data-aos="fade-left">
+        <span class="eyebrow">Cerita Kami</span>
+        <h2 class="section-title">Dari Dapur Kecil di Yogyakarta, Menuju Meja Kopi Seluruh Nusantara</h2>
+        <p class="text-roast/70 leading-relaxed mb-4">
+          Kopi Nusantara Raya lahir pada tahun 1998 dari tangan Ibu Sri Wahyuni, seorang penikmat kopi yang memutuskan mengubah kecintaannya menjadi usaha keluarga di sebuah dapur kecil di Yogyakarta. Berbekal satu mesin roasting sederhana, ia mulai menyangrai biji kopi dari kebun tetangga dan menjualnya dari pintu ke pintu.
+        </p>
+        <p class="text-roast/70 leading-relaxed mb-8">
+          Lebih dari dua dekade kemudian, usaha itu tumbuh menjadi UMKM yang bermitra dengan ratusan petani kopi di Aceh, Toraja, Bali, hingga Sumatra Utara — tanpa pernah kehilangan sentuhan tangan dan nilai kekeluargaan yang menjadi fondasinya.
+        </p>
+
+        <div class="grid sm:grid-cols-2 gap-4">
+          <div class="value-card">
+            <i class="fa-solid fa-eye text-primary text-xl mb-3"></i>
+            <h3 class="font-semibold mb-1">Visi</h3>
+            <p class="text-sm text-roast/60">Menjadi rumah kopi Nusantara yang dikenal dunia karena kualitas dan keberlanjutannya.</p>
+          </div>
+          <div class="value-card">
+            <i class="fa-solid fa-flag text-primary text-xl mb-3"></i>
+            <h3 class="font-semibold mb-1">Misi</h3>
+            <p class="text-sm text-roast/60">Mengangkat martabat petani lokal lewat harga adil & kopi berkualitas ekspor.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Company Values -->
+    <div data-aos="fade-up" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-24">
+      <div class="value-pill"><i class="fa-solid fa-handshake"></i><span>Kemitraan Adil</span></div>
+      <div class="value-pill"><i class="fa-solid fa-leaf"></i><span>Berkelanjutan</span></div>
+      <div class="value-pill"><i class="fa-solid fa-medal"></i><span>Kualitas Premium</span></div>
+      <div class="value-pill"><i class="fa-solid fa-heart"></i><span>Kekeluargaan</span></div>
+    </div>
+
+    <!-- Timeline -->
+    <div class="text-center mb-14" data-aos="fade-up">
+      <span class="eyebrow justify-center">Perjalanan Kami</span>
+      <h2 class="section-title">Jejak Langkah 1998 &mdash; Sekarang</h2>
+    </div>
+
+    <div class="timeline-wrap">
+      <div class="timeline-line" aria-hidden="true"></div>
+      <div class="grid md:grid-cols-4 gap-8">
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="0">
+          <span class="timeline-dot"></span>
+          <p class="font-display font-bold text-primary text-lg">1998</p>
+          <h3 class="font-semibold mb-1">Awal Mula</h3>
+          <p class="text-sm text-roast/60">Berdiri dari dapur rumah di Yogyakarta dengan satu mesin roasting manual.</p>
+        </div>
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+          <span class="timeline-dot"></span>
+          <p class="font-display font-bold text-primary text-lg">2008</p>
+          <h3 class="font-semibold mb-1">Kemitraan Petani</h3>
+          <p class="text-sm text-roast/60">Mulai bermitra langsung dengan kelompok tani kopi di Aceh & Toraja.</p>
+        </div>
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+          <span class="timeline-dot"></span>
+          <p class="font-display font-bold text-primary text-lg">2016</p>
+          <h3 class="font-semibold mb-1">Toko Pertama</h3>
+          <p class="text-sm text-roast/60">Membuka gerai roastery & kedai pertama di Jl. Malioboro.</p>
+        </div>
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+          <span class="timeline-dot"></span>
+          <p class="font-display font-bold text-primary text-lg">2026</p>
+          <h3 class="font-semibold mb-1">Jangkauan Nasional</h3>
+          <p class="text-sm text-roast/60">Melayani 60+ kota dengan sertifikasi organik & ekspor rintisan.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ WHY CHOOSE US ============ -->
+<section id="why" class="py-24 lg:py-32 bg-primary-light/40 relative">
+  <div class="max-w-7xl mx-auto px-5 lg:px-8">
+    <div class="text-center max-w-2xl mx-auto mb-16" data-aos="fade-up">
+      <span class="eyebrow justify-center">Keunggulan Kami</span>
+      <h2 class="section-title">Mengapa Memilih Kopi Nusantara Raya</h2>
+      <p class="text-roast/60 mt-4">Enam alasan pelanggan kami setia menyeduh kopi kami setiap pagi, dari Sabang sampai Merauke.</p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="why-card" data-aos="zoom-in" data-aos-delay="0">
+        <div class="why-icon"><i class="fa-solid fa-mountain-sun"></i></div>
+        <h3 class="font-semibold text-lg mb-2">Single Origin Pilihan</h3>
+        <p class="text-sm text-roast/60">Setiap biji ditelusuri hingga ke kebun asalnya — Gayo, Toraja, Kintamani & Mandailing.</p>
+      </div>
+      <div class="why-card" data-aos="zoom-in" data-aos-delay="100">
+        <div class="why-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+        <h3 class="font-semibold text-lg mb-2">Mitra Petani Langsung</h3>
+        <p class="text-sm text-roast/60">Membeli langsung dari petani dengan harga adil, tanpa tengkulak berlapis.</p>
+      </div>
+      <div class="why-card" data-aos="zoom-in" data-aos-delay="200">
+        <div class="why-icon"><i class="fa-solid fa-certificate"></i></div>
+        <h3 class="font-semibold text-lg mb-2">Bersertifikat Organik</h3>
+        <p class="text-sm text-roast/60">Ditanam tanpa pestisida kimia dan telah lolos uji Lembaga Sertifikasi Organik.</p>
+      </div>
+      <div class="why-card" data-aos="zoom-in" data-aos-delay="300">
+        <div class="why-icon"><i class="fa-solid fa-fire-flame-curved"></i></div>
+        <h3 class="font-semibold text-lg mb-2">Roasting Mingguan</h3>
+        <p class="text-sm text-roast/60">Disangrai dalam batch kecil setiap minggu agar aroma & rasa selalu segar.</p>
+      </div>
+      <div class="why-card" data-aos="zoom-in" data-aos-delay="400">
+        <div class="why-icon"><i class="fa-solid fa-sliders"></i></div>
+        <h3 class="font-semibold text-lg mb-2">Blend Kustom</h3>
+        <p class="text-sm text-roast/60">Bisa request tingkat roasting & gilingan sesuai metode seduh favorit Anda.</p>
+      </div>
+      <div class="why-card" data-aos="zoom-in" data-aos-delay="500">
+        <div class="why-icon"><i class="fa-solid fa-truck-fast"></i></div>
+        <h3 class="font-semibold text-lg mb-2">Kirim ke Seluruh Indonesia</h3>
+        <p class="text-sm text-roast/60">Dikemas kedap udara dan dikirim ke 60+ kota tanpa mengurangi kesegaran.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURED PRODUCTS ============ -->
+<section id="products" class="py-24 lg:py-32 bg-white">
+  <div class="max-w-7xl mx-auto px-5 lg:px-8">
+    <div class="text-center max-w-2xl mx-auto mb-16" data-aos="fade-up">
+      <span class="eyebrow justify-center">Produk Unggulan</span>
+      <h2 class="section-title">Empat Rasa, Empat Cerita dari Penjuru Nusantara</h2>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+      <article class="product-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="relative overflow-hidden rounded-2xl mb-4">
+          <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=600&q=80" loading="lazy" alt="Kopi Arabika Gayo dalam kemasan biji utuh" class="product-img">
+          <span class="product-badge">Best Seller</span>
+        </div>
+        <h3 class="font-semibold text-lg mb-1">Arabika Gayo</h3>
+        <p class="text-sm text-roast/60 mb-3">Asam jeruk lembut dengan sentuhan cokelat, dari dataran tinggi Aceh.</p>
+        <div class="flex items-center justify-between">
+          <span class="font-display font-bold text-primary text-lg">Rp95.000</span>
+          <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20pesan%20Kopi%20Arabika%20Gayo." target="_blank" rel="noopener" class="product-cta"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </article>
+
+      <article class="product-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="relative overflow-hidden rounded-2xl mb-4">
+          <img src="https://images.unsplash.com/photo-1587734195503-904fca47e0d9?auto=format&fit=crop&w=600&q=80" loading="lazy" alt="Kopi Toraja diseduh dengan metode pour over" class="product-img">
+          <span class="product-badge">Favorit</span>
+        </div>
+        <h3 class="font-semibold text-lg mb-1">Toraja Kalosi</h3>
+        <p class="text-sm text-roast/60 mb-3">Body tebal, earthy, dengan aroma rempah khas dataran tinggi Sulawesi.</p>
+        <div class="flex items-center justify-between">
+          <span class="font-display font-bold text-primary text-lg">Rp110.000</span>
+          <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20pesan%20Kopi%20Toraja%20Kalosi." target="_blank" rel="noopener" class="product-cta"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </article>
+
+      <article class="product-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="relative overflow-hidden rounded-2xl mb-4">
+          <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80" loading="lazy" alt="Secangkir kopi Kintamani Bali dengan latte art" class="product-img">
+          <span class="product-badge">Organik</span>
+        </div>
+        <h3 class="font-semibold text-lg mb-1">Kintamani Bali</h3>
+        <p class="text-sm text-roast/60 mb-3">Segar dengan nuansa citrus & bunga, ditanam berdampingan dengan jeruk.</p>
+        <div class="flex items-center justify-between">
+          <span class="font-display font-bold text-primary text-lg">Rp98.000</span>
+          <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20pesan%20Kopi%20Kintamani%20Bali." target="_blank" rel="noopener" class="product-cta"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </article>
+
+      <article class="product-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="relative overflow-hidden rounded-2xl mb-4">
+          <img src="https://images.unsplash.com/photo-1524350876685-274059332603?auto=format&fit=crop&w=600&q=80" loading="lazy" alt="Kemasan premium Kopi Mandailing edisi terbatas" class="product-img">
+          <span class="product-badge">Edisi Terbatas</span>
+        </div>
+        <h3 class="font-semibold text-lg mb-1">Mandailing Reserve</h3>
+        <p class="text-sm text-roast/60 mb-3">Full body, low acidity, dengan after taste manis khas kayu manis.</p>
+        <div class="flex items-center justify-between">
+          <span class="font-display font-bold text-primary text-lg">Rp185.000</span>
+          <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20pesan%20Kopi%20Mandailing%20Reserve." target="_blank" rel="noopener" class="product-cta"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ VIDEO PROFILE ============ -->
+<section id="video" class="py-24 lg:py-32 bg-roast relative overflow-hidden">
+  <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=1920&q=60" loading="lazy" alt="" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover opacity-20">
+  <div class="max-w-5xl mx-auto px-5 lg:px-8 relative text-center">
+    <span class="eyebrow justify-center !text-accent">Kenali Kami Lebih Dekat</span>
+    <h2 class="section-title !text-white">Tonton Kisah Kopi Nusantara Raya</h2>
+    <p class="text-white/60 max-w-xl mx-auto mb-12">Simak bagaimana UMKM kopi lokal seperti kami membawa cita rasa Nusantara menembus pasar dunia.</p>
+
+    <div data-aos="zoom-in" class="video-frame">
+      <button id="playVideoBtn" class="video-thumb-btn" aria-label="Putar video profil perusahaan">
+        <img src="https://img.youtube.com/vi/m3w7KqaOzO0/maxresdefault.jpg" loading="lazy" alt="Cuplikan video profil UMKM kopi Nusantara" class="w-full h-full object-cover">
+        <span class="play-btn"><i class="fa-solid fa-play"></i></span>
+      </button>
+      <div id="videoIframeWrap" class="hidden aspect-video">
+        <iframe id="videoIframe" class="w-full h-full" src="" title="Video Profil Kopi Nusantara Raya" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section id="gallery" class="py-24 lg:py-32 bg-white">
+  <div class="max-w-7xl mx-auto px-5 lg:px-8">
+    <div class="text-center max-w-2xl mx-auto mb-14" data-aos="fade-up">
+      <span class="eyebrow justify-center">Galeri</span>
+      <h2 class="section-title">Momen di Balik Setiap Cangkir</h2>
+    </div>
+
+    <div class="masonry" id="galleryGrid">
+      <img data-aos="fade-up" class="masonry-item" loading="lazy" src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=600&q=70" alt="Biji kopi hasil roasting segar">
+      <img data-aos="fade-up" data-aos-delay="50" class="masonry-item tall" loading="lazy" src="https://images.unsplash.com/photo-1506372023823-741c83b836fe?auto=format&fit=crop&w=600&q=70" alt="Kebun kopi di dataran tinggi Nusantara">
+      <img data-aos="fade-up" data-aos-delay="100" class="masonry-item" loading="lazy" src="https://images.unsplash.com/photo-1442550528053-c431ecb55509?auto=format&fit=crop&w=600&q=70" alt="Proses menuang kopi dari V60">
+      <img data-aos="fade-up" data-aos-delay="150" class="masonry-item" loading="lazy" src="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?auto=format&fit=crop&w=600&q=70" alt="Latte art di secangkir kopi susu">
+      <img data-aos="fade-up" data-aos-delay="200" class="masonry-item tall" loading="lazy" src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=600&q=70" alt="Kemasan biji kopi Kopi Nusantara Raya">
+      <img data-aos="fade-up" data-aos-delay="250" class="masonry-item" loading="lazy" src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=600&q=70" alt="Suasana kedai kopi yang hangat">
+      <img data-aos="fade-up" data-aos-delay="300" class="masonry-item" loading="lazy" src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=600&q=70" alt="Secangkir kopi hitam di atas meja kayu">
+      <img data-aos="fade-up" data-aos-delay="350" class="masonry-item tall" loading="lazy" src="https://images.unsplash.com/photo-1522992319-0365e5f11656?auto=format&fit=crop&w=600&q=70" alt="Flat lay biji kopi dan alat seduh manual">
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox hidden" role="dialog" aria-modal="true" aria-label="Pratinjau gambar galeri">
+  <button id="lightboxClose" class="lightbox-close" aria-label="Tutup pratinjau"><i class="fa-solid fa-xmark"></i></button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+<!-- ============ OUR PROCESS ============ -->
+<section id="process" class="py-24 lg:py-32 bg-primary-light/40">
+  <div class="max-w-7xl mx-auto px-5 lg:px-8">
+    <div class="text-center max-w-2xl mx-auto mb-16" data-aos="fade-up">
+      <span class="eyebrow justify-center">Proses Kami</span>
+      <h2 class="section-title">Dari Kebun ke Cangkir Anda</h2>
+    </div>
+
+    <div class="grid md:grid-cols-5 gap-6">
+      <div class="process-step" data-aos="fade-up" data-aos-delay="0">
+        <span class="process-num">01</span>
+        <i class="fa-solid fa-seedling process-icon"></i>
+        <h3 class="font-semibold mb-1">Panen Selektif</h3>
+        <p class="text-sm text-roast/60">Petani memetik hanya ceri kopi merah matang dengan tangan.</p>
+      </div>
+      <div class="process-step" data-aos="fade-up" data-aos-delay="100">
+        <span class="process-num">02</span>
+        <i class="fa-solid fa-filter process-icon"></i>
+        <h3 class="font-semibold mb-1">Sortir & Cuci</h3>
+        <p class="text-sm text-roast/60">Biji disortir manual untuk memastikan hanya kualitas terbaik terpilih.</p>
+      </div>
+      <div class="process-step" data-aos="fade-up" data-aos-delay="200">
+        <span class="process-num">03</span>
+        <i class="fa-solid fa-fire process-icon"></i>
+        <h3 class="font-semibold mb-1">Roasting Presisi</h3>
+        <p class="text-sm text-roast/60">Disangrai sesuai profil rasa tiap origin untuk hasil optimal.</p>
+      </div>
+      <div class="process-step" data-aos="fade-up" data-aos-delay="300">
+        <span class="process-num">04</span>
+        <i class="fa-solid fa-box-open process-icon"></i>
+        <h3 class="font-semibold mb-1">Kemas Kedap Udara</h3>
+        <p class="text-sm text-roast/60">Dikemas dengan katup one-way valve untuk menjaga kesegaran.</p>
+      </div>
+      <div class="process-step" data-aos="fade-up" data-aos-delay="400">
+        <span class="process-num">05</span>
+        <i class="fa-solid fa-truck process-icon"></i>
+        <h3 class="font-semibold mb-1">Kirim Cepat</h3>
+        <p class="text-sm text-roast/60">Sampai di tangan Anda dalam kondisi segar ke seluruh Indonesia.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section id="testimonials" class="py-24 lg:py-32 bg-white overflow-hidden">
+  <div class="max-w-7xl mx-auto px-5 lg:px-8">
+    <div class="text-center max-w-2xl mx-auto mb-16" data-aos="fade-up">
+      <span class="eyebrow justify-center">Testimoni</span>
+      <h2 class="section-title">Apa Kata Mereka yang Sudah Menyeduh</h2>
+    </div>
+
+    <div class="swiper testiSwiper" data-aos="fade-up">
+      <div class="swiper-wrapper pb-12">
+
+        <div class="swiper-slide">
+          <div class="testi-card">
+            <div class="flex text-accent mb-4" aria-label="Rating 5 dari 5">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-roast/70 mb-6">"Rasa Arabika Gayo-nya konsisten enak, seperti yang dulu saya minum langsung di Aceh. Pengiriman juga selalu cepat dan aman."</p>
+            <div class="flex items-center gap-3">
+              <img src="https://randomuser.me/api/portraits/women/44.jpg" loading="lazy" alt="Foto Dewi Anggraini" class="w-11 h-11 rounded-full object-cover">
+              <div>
+                <p class="font-semibold text-sm">Dewi Anggraini</p>
+                <p class="text-xs text-roast/50">Pemilik Kedai Kopi, Bandung</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="testi-card">
+            <div class="flex text-accent mb-4" aria-label="Rating 5 dari 5">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-roast/70 mb-6">"Toraja Kalosi favorit tim kantor kami. Body-nya berat dan aromanya bertahan lama. Selalu re-order tiap bulan."</p>
+            <div class="flex items-center gap-3">
+              <img src="https://randomuser.me/api/portraits/men/32.jpg" loading="lazy" alt="Foto Rangga Pratama" class="w-11 h-11 rounded-full object-cover">
+              <div>
+                <p class="font-semibold text-sm">Rangga Pratama</p>
+                <p class="text-xs text-roast/50">Manajer Kantor, Jakarta</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="testi-card">
+            <div class="flex text-accent mb-4" aria-label="Rating 4.5 dari 5">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p class="text-roast/70 mb-6">"Suka sekali dengan Kintamani Bali-nya, ada rasa citrus segar yang unik. Kemasannya juga premium banget."</p>
+            <div class="flex items-center gap-3">
+              <img src="https://randomuser.me/api/portraits/women/68.jpg" loading="lazy" alt="Foto Putri Lestari" class="w-11 h-11 rounded-full object-cover">
+              <div>
+                <p class="font-semibold text-sm">Putri Lestari</p>
+                <p class="text-xs text-roast/50">Food Blogger, Yogyakarta</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="testi-card">
+            <div class="flex text-accent mb-4" aria-label="Rating 5 dari 5">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-roast/70 mb-6">"Sebagai roaster, saya cukup pemilih soal biji kopi. Mandailing Reserve mereka termasuk yang terbaik yang pernah saya coba."</p>
+            <div class="flex items-center gap-3">
+              <img src="https://randomuser.me/api/portraits/men/76.jpg" loading="lazy" alt="Foto Bayu Firmansyah" class="w-11 h-11 rounded-full object-cover">
+              <div>
+                <p class="font-semibold text-sm">Bayu Firmansyah</p>
+                <p class="text-xs text-roast/50">Head Barista, Surabaya</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="testi-card">
+            <div class="flex text-accent mb-4" aria-label="Rating 5 dari 5">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-roast/70 mb-6">"Pelayanan ramah, respons WhatsApp cepat, dan kopinya selalu fresh. Sudah langganan sejak 2 tahun lalu."</p>
+            <div class="flex items-center gap-3">
+              <img src="https://randomuser.me/api/portraits/women/21.jpg" loading="lazy" alt="Foto Sinta Maharani" class="w-11 h-11 rounded-full object-cover">
+              <div>
+                <p class="font-semibold text-sm">Sinta Maharani</p>
+                <p class="text-xs text-roast/50">Ibu Rumah Tangga, Semarang</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="swiper-pagination !relative !mt-4"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STATISTICS COUNTER ============ -->
+<section class="py-20 bg-gradient-to-r from-primary to-secondary relative overflow-hidden">
+  <div class="max-w-7xl mx-auto px-5 lg:px-8 relative">
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center text-white">
+      <div data-aos="fade-up">
+        <p class="font-display text-4xl lg:text-5xl font-bold"><span class="counter" data-target="27">0</span>+</p>
+        <p class="text-sm uppercase tracking-wider text-white/80 mt-2">Tahun Berdiri</p>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="100">
+        <p class="font-display text-4xl lg:text-5xl font-bold"><span class="counter" data-target="850">0</span>K+</p>
+        <p class="text-sm uppercase tracking-wider text-white/80 mt-2">Cangkir Terjual</p>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="200">
+        <p class="font-display text-4xl lg:text-5xl font-bold"><span class="counter" data-target="320">0</span>+</p>
+        <p class="text-sm uppercase tracking-wider text-white/80 mt-2">Petani Mitra</p>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="300">
+        <p class="font-display text-4xl lg:text-5xl font-bold"><span class="counter" data-target="98">0</span>%</p>
+        <p class="text-sm uppercase tracking-wider text-white/80 mt-2">Kepuasan Pelanggan</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section id="faq" class="py-24 lg:py-32 bg-white">
+  <div class="max-w-3xl mx-auto px-5 lg:px-8">
+    <div class="text-center mb-14" data-aos="fade-up">
+      <span class="eyebrow justify-center">FAQ</span>
+      <h2 class="section-title">Pertanyaan yang Sering Diajukan</h2>
+    </div>
+
+    <div class="space-y-4" id="faqAccordion">
+      <div class="faq-item" data-aos="fade-up">
+        <button class="faq-question" aria-expanded="false">
+          <span>Apakah biji kopi selalu fresh saat dikirim?</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Ya. Kami hanya me-roasting dalam batch kecil setiap minggu dan mengemas dengan katup one-way valve, sehingga kopi tetap segar sejak dikirim hingga sampai di tangan Anda.</p>
+        </div>
+      </div>
+
+      <div class="faq-item" data-aos="fade-up">
+        <button class="faq-question" aria-expanded="false">
+          <span>Berapa lama estimasi pengiriman ke luar Jawa?</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Untuk wilayah Jawa 1-2 hari kerja, sementara luar Jawa (Sumatra, Kalimantan, Sulawesi, dll) sekitar 3-6 hari kerja tergantung ekspedisi yang dipilih.</p>
+        </div>
+      </div>
+
+      <div class="faq-item" data-aos="fade-up">
+        <button class="faq-question" aria-expanded="false">
+          <span>Bisakah biji kopi digiling sesuai metode seduh saya?</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Tentu. Anda bisa memilih gilingan kasar (french press), sedang (pour over/drip), atau halus (espresso) saat memesan lewat WhatsApp kami.</p>
+        </div>
+      </div>
+
+      <div class="faq-item" data-aos="fade-up">
+        <button class="faq-question" aria-expanded="false">
+          <span>Apakah tersedia untuk pembelian dalam jumlah besar (B2B)?</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Ya, kami melayani kerja sama dengan kafe, hotel, dan kantor dengan skema harga khusus untuk pembelian rutin bulanan. Silakan hubungi tim kami untuk penawaran.</p>
+        </div>
+      </div>
+
+      <div class="faq-item" data-aos="fade-up">
+        <button class="faq-question" aria-expanded="false">
+          <span>Metode pembayaran apa saja yang diterima?</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Kami menerima transfer bank, e-wallet (QRIS), serta pembayaran di tempat (COD) khusus untuk wilayah Yogyakarta dan sekitarnya.</p>
+        </div>
+      </div>
+
+      <div class="faq-item" data-aos="fade-up">
+        <button class="faq-question" aria-expanded="false">
+          <span>Apakah kemasan kopi ramah lingkungan?</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Kami terus bertransisi menggunakan kemasan yang dapat didaur ulang dan mengurangi plastik sekali pakai sebagai bagian dari komitmen keberlanjutan kami.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact" class="py-24 lg:py-32 bg-primary-light/40">
+  <div class="max-w-7xl mx-auto px-5 lg:px-8">
+    <div class="text-center max-w-2xl mx-auto mb-16" data-aos="fade-up">
+      <span class="eyebrow justify-center">Hubungi Kami</span>
+      <h2 class="section-title">Mari Berbincang Soal Kopi</h2>
+    </div>
+
+    <div class="grid lg:grid-cols-2 gap-10">
+
+      <div data-aos="fade-right" class="space-y-6">
+        <div class="rounded-3xl overflow-hidden shadow-card h-72">
+          <iframe
+            src="https://maps.google.com/maps?q=Malioboro%20Yogyakarta&t=&z=14&ie=UTF8&iwloc=&output=embed"
+            class="w-full h-full border-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            title="Peta lokasi Kopi Nusantara Raya di Yogyakarta"></iframe>
+        </div>
+
+        <div class="grid sm:grid-cols-2 gap-4">
+          <a href="https://wa.me/6281234567890" target="_blank" rel="noopener" class="contact-card hover:border-primary/40">
+            <i class="fa-brands fa-whatsapp text-primary text-xl"></i>
+            <div>
+              <p class="text-xs text-roast/50">WhatsApp</p>
+              <p class="font-semibold text-sm">+62 812-3456-7890</p>
+            </div>
+          </a>
+          <a href="mailto:halo@kopinusantararaya.id" class="contact-card hover:border-primary/40">
+            <i class="fa-solid fa-envelope text-primary text-xl"></i>
+            <div>
+              <p class="text-xs text-roast/50">Email</p>
+              <p class="font-semibold text-sm">halo@kopinusantararaya.id</p>
+            </div>
+          </a>
+          <a href="tel:+622741234567" class="contact-card hover:border-primary/40">
+            <i class="fa-solid fa-phone text-primary text-xl"></i>
+            <div>
+              <p class="text-xs text-roast/50">Telepon</p>
+              <p class="font-semibold text-sm">(0274) 123-4567</p>
+            </div>
+          </a>
+          <div class="contact-card">
+            <i class="fa-solid fa-location-dot text-primary text-xl"></i>
+            <div>
+              <p class="text-xs text-roast/50">Alamat</p>
+              <p class="font-semibold text-sm">Jl. Malioboro No. 88, Yogyakarta</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <form data-aos="fade-left" id="contactForm" class="bg-white rounded-3xl shadow-card p-7 lg:p-9 space-y-5" novalidate>
+        <div>
+          <label for="name" class="form-label">Nama Lengkap</label>
+          <input type="text" id="name" name="name" required class="form-input" placeholder="Nama Anda">
+        </div>
+        <div class="grid sm:grid-cols-2 gap-5">
+          <div>
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" name="email" required class="form-input" placeholder="email@contoh.com">
+          </div>
+          <div>
+            <label for="phone" class="form-label">No. Telepon</label>
+            <input type="tel" id="phone" name="phone" class="form-input" placeholder="08xx-xxxx-xxxx">
+          </div>
+        </div>
+        <div>
+          <label for="message" class="form-label">Pesan</label>
+          <textarea id="message" name="message" rows="4" required class="form-input resize-none" placeholder="Tuliskan pertanyaan atau pesanan Anda..."></textarea>
+        </div>
+        <button type="submit" class="w-full bg-primary hover:bg-primary-dark text-white font-semibold py-4 rounded-full shadow-soft transition-all duration-300 hover:-translate-y-0.5">
+          Kirim Pesan
+        </button>
+        <p id="formSuccess" class="hidden text-sm text-primary font-medium text-center">✓ Pesan terkirim! Tim kami akan segera menghubungi Anda.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROMO: JASA PEMBUATAN LANDING PAGE ============ -->
+<section id="jasa-website" class="py-20 lg:py-24 bg-roast relative overflow-hidden">
+  <div class="absolute -top-20 -left-20 w-72 h-72 bg-primary/20 rounded-full blur-3xl"></div>
+  <div class="absolute -bottom-24 -right-16 w-80 h-80 bg-accent/10 rounded-full blur-3xl"></div>
+
+  <div class="max-w-5xl mx-auto px-5 lg:px-8 relative">
+    <div class="promo-card" data-aos="fade-up">
+      <img src="assets/anggun-perpatih.jpg" loading="lazy" alt="Foto Anggun Perpatih, pembuat website company profile UMKM" class="promo-photo">
+
+      <div class="text-center md:text-left">
+        <span class="eyebrow justify-center md:justify-start !text-accent">Jasa Pembuatan Website</span>
+        <h2 class="font-display text-2xl sm:text-3xl font-bold text-white mb-3 leading-snug">
+          Butuh Company Profile Landing Page Sekelas Ini untuk Usaha Anda?
+        </h2>
+        <p class="text-white/70 mb-6 max-w-lg">
+          Landing page di atas dirancang &amp; dikembangkan oleh <strong class="text-white">Anggun Perpatih</strong> — jasa pembuatan Company Profile &amp; Landing Page premium, modern, responsif, dan siap tayang untuk UMKM maupun bisnis Anda.
+        </p>
+        <div class="flex flex-wrap justify-center md:justify-start items-center gap-4">
+          <a href="https://wa.me/6283878368574?text=Halo%20Anggun%2C%20saya%20tertarik%20membuat%20Company%20Profile%20Landing%20Page." target="_blank" rel="noopener"
+            class="inline-flex items-center gap-2 bg-primary hover:bg-primary-dark text-white font-semibold px-6 py-3.5 rounded-full shadow-soft transition-all duration-300 hover:-translate-y-0.5">
+            <i class="fa-brands fa-whatsapp text-lg"></i> 0838-7836-8574
+          </a>
+          <span class="text-white/60 text-sm">Anggun Perpatih · Web Developer</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="bg-roast text-white/70 pt-20 pb-8">
+  <div class="max-w-7xl mx-auto px-5 lg:px-8">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-14">
+      <div>
+        <a href="#home" class="flex items-center gap-2 mb-4">
+          <span class="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
+            <i class="fa-solid fa-mug-saucer text-white"></i>
+          </span>
+          <span class="font-display font-bold text-white text-lg">Kopi Nusantara Raya</span>
+        </a>
+        <p class="text-sm leading-relaxed mb-5">Meracik warisan Nusantara, menyeduh kualitas dunia sejak 1998. UMKM kopi premium asli Yogyakarta, Indonesia.</p>
+        <div class="flex gap-3">
+          <a href="https://instagram.com/kopinusantararaya" target="_blank" rel="noopener" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://facebook.com/kopinusantararaya" target="_blank" rel="noopener" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://tiktok.com/@kopinusantararaya" target="_blank" rel="noopener" class="social-icon" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://wa.me/6281234567890" target="_blank" rel="noopener" class="social-icon" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="text-white font-semibold mb-4">Tautan Cepat</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="#about" class="footer-link">Tentang Kami</a></li>
+          <li><a href="#products" class="footer-link">Produk</a></li>
+          <li><a href="#gallery" class="footer-link">Galeri</a></li>
+          <li><a href="#testimonials" class="footer-link">Testimoni</a></li>
+          <li><a href="#faq" class="footer-link">FAQ</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-white font-semibold mb-4">Produk Kami</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="#products" class="footer-link">Arabika Gayo</a></li>
+          <li><a href="#products" class="footer-link">Toraja Kalosi</a></li>
+          <li><a href="#products" class="footer-link">Kintamani Bali</a></li>
+          <li><a href="#products" class="footer-link">Mandailing Reserve</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-white font-semibold mb-4">Kontak</h3>
+        <ul class="space-y-3 text-sm">
+          <li class="flex items-start gap-2"><i class="fa-solid fa-location-dot mt-1 text-primary"></i> Jl. Malioboro No. 88, Yogyakarta</li>
+          <li class="flex items-center gap-2"><i class="fa-solid fa-phone text-primary"></i> (0274) 123-4567</li>
+          <li class="flex items-center gap-2"><i class="fa-solid fa-envelope text-primary"></i> halo@kopinusantararaya.id</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/50">
+      <p>&copy; <span id="year"></span> Kopi Nusantara Raya. Seluruh hak cipta dilindungi.</p>
+      <p>Dibuat dengan <i class="fa-solid fa-heart text-primary"></i> untuk UMKM Indonesia.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/6281234567890?text=Halo%20Kopi%20Nusantara%20Raya!" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Chat via WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<!-- Back to top -->
+<button id="backToTop" class="back-to-top" aria-label="Kembali ke atas">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<!-- ============ SCRIPTS ============ -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
