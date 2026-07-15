@@ -10,27 +10,27 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: pages
-  cancel-in-progress: true
-
 jobs:
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: actions/configure-pages@v5
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
 
-      - name: Upload website
+      - name: Prepare site
+        run: |
+          mkdir _site
+          cp -r kopi-nusantara/* _site/
+
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: kopi-nusantara
+          path: _site
 
-      - id: deployment
+      - name: Deploy
+        id: deployment
         uses: actions/deploy-pages@v4
